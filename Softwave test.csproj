@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Softwave_test-8C77AF34-4BF2-4FBC-9B51-6FC7A4316A9B</UserSecretsId>
+    <RootNamespace>Softwave_test</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureADB2C.UI" Version="3.1.7" />
+  </ItemGroup>
+
+</Project>
