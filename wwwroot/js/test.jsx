@@ -16,7 +16,7 @@
         return (
             <div className="Box">
                 {
-                    JSON.stringify(this.state.data)
+                    //JSON.stringify(this.state.data)
                 }
             </div>
         );

@@ -24,6 +24,11 @@ a {
   border-color: #1861ac;
 }
 
+body {
+    background-color: #2F2F2F;
+    color: #fff;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
