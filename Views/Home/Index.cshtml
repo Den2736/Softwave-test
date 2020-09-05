@@ -6,17 +6,23 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-
-    @if (displayData)
-    {
-        <div id="content"></div>
-    }
 </div>
+
+@if (displayData)
+{
+    <div class="container-fluid dashboard" id="content">
+    </div>
+}
 
 @if (displayData)
 {
     @section Scripts
     {
+        <script src="@Url.Content("~/lib/amcharts/core.js")"></script>
+        <script src="@Url.Content("~/lib/amcharts/charts.js")"></script>
+        <script src="@Url.Content("~/lib/amcharts/themes/animated.js")"></script>
+        <script src="@Url.Content("~/lib/amcharts/themes/dark.js")"></script>
+
         <script src="@Url.Content("~/js/test.jsx")"></script>
     }
 }

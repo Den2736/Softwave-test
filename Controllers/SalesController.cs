@@ -51,7 +51,8 @@ namespace Softwave_test.Controllers
                         title = s.Product,
                         value = s.SaledCount,
                         maxValue = s.MaxCount
-                    });
+                    })
+                    .OrderBy(s => s.title);
 
                 data.Add(new
                 {
