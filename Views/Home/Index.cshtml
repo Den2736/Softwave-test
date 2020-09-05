@@ -5,14 +5,19 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">
+        Welcome
+        @if (!User.Identity.IsAuthenticated)
+        {
+            @: , please sign in
+        }
+    </h1>
 </div>
 
-@if (displayData)
-{
-    <div class="container-fluid dashboard" id="content">
-    </div>
-}
+<div class="container-fluid dashboard" id="content">
+    
+</div>
+
 
 @if (displayData)
 {
